@@ -1,3 +1,4 @@
+/* Navbar.css */
 .active {
     background-color: #1d4ed8;
     color: white;
@@ -8,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0f172a;
+    background-color: #161A30;
     color: white;
     position: sticky;
     top: 0;
@@ -17,12 +18,14 @@ nav {
 }
 
 nav .logo {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    max-width: 100%; 
-    height: auto;
 }
 
+nav .logo img {
+    max-width: 100%;
+    height: auto;
+}
 
 nav ul {
     display: flex;
@@ -38,14 +41,15 @@ nav ul li a {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 0.5rem;
+    padding: 0.8rem; /* Increase padding for a larger touch area */
     margin: 0 0.5rem;
     border-radius: 0.5rem;
+    font-size: 1.2rem; /* Adjust font size */
     transition: background-color 0.3s ease;
 }
 
 nav ul li a:not(.active):hover {
-    background-color: #172554;
+    background-color: #161A30;
 }
 
 nav .menu {
@@ -66,6 +70,11 @@ nav .menu span {
     background-color: #fff;
     border-radius: 0.2rem;
     transition: background-color 0.3s ease;
+}
+
+/* Stylish menu styles */
+nav .menu:hover span {
+    background-color: #1d4ed8;
 }
 
 @media (max-width: 480px) {
@@ -96,5 +105,6 @@ nav .menu span {
 
     nav ul li a {
         margin: 0.2rem 0.5rem;
+        font-size: 1.2rem; /* Adjust font size */
     }
 }

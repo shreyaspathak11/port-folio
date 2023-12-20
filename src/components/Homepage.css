@@ -1,0 +1,36 @@
+/* Homepage.css */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed for your layout */
+  }
+  
+  .profile-container {
+    width: 150px; /* Adjust the size of the circular image container */
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%; /* Creates a circular shape */
+    border: 5px solid #1d4ed8; /* Border color for the circular image */
+    margin-right: 20px; /* Adjust the space between the image and text */
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Ensures the image inside is also circular */
+  }
+  
+  .text-container {
+    max-width: 600px; /* Adjust as needed for your layout */
+  }
+  
+  .text-container h1 {
+    font-size: 2rem; /* Adjust the font size */
+    margin-bottom: 1rem; /* Adjust the space between the heading and paragraph */
+  }
+  
+  .text-container p {
+    font-size: 1.2rem; /* Adjust the font size */
+  }
+  
