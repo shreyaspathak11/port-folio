@@ -1,12 +1,13 @@
-import React from 'react';
 import profilePic from '../assets/profile.jpg'; // Adjust the path accordingly
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 import Youtube from '../assets/youtube.png';
 import Instagram from '../assets/instagram.png';
+import AboutMe from './AboutMe';
 
 const Profile = () => {
   return (
+    <>
     <section id="profile" className="profile">
       <div className="section__pic-container">
         <img 
@@ -57,6 +58,8 @@ const Profile = () => {
         </div>
       </div>
     </section>
+    <AboutMe />
+    </>
   );
 };
 
