@@ -395,12 +395,11 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .section__pic-container {
-  height: 500px;
-  width: 500px;
+  display: flex;
   margin: auto 0;
 }
 
