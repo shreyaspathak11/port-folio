@@ -3,7 +3,7 @@ import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 import Youtube from '../assets/youtube.png';
 import Instagram from '../assets/instagram.png';
-import AboutMe from './AboutMe';
+
 
 const Profile = () => {
   return (
@@ -28,6 +28,7 @@ const Profile = () => {
             Contact
           </button>
         </div>
+        
         <div id="socials-container" className="socials-container">
           <img
             src={linkedin}
@@ -53,12 +54,12 @@ const Profile = () => {
             className="icon"
             onClick={() => window.location.href = 'https://linkedin.com/'}
           />
+        </div> 
           
-          
-        </div>
+        
       </div>
     </section>
-    <AboutMe />
+
     </>
   );
 };

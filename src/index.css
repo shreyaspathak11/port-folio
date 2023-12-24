@@ -33,6 +33,7 @@
   #profile,
   .section-container {
     display: block;
+    height: fit-content;
   }
   .arrow {
     display: none;
@@ -60,7 +61,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: fit-content;
     margin-bottom: 0;
   }
   article {

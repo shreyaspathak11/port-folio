@@ -1,7 +1,8 @@
 import React from 'react';
-import school from '../assets/school.png';
-import highschool from '../assets/high.png';
+
 import graduate from '../assets/graduated.png';
+import highschool from '../assets/highschool.png';
+import school from '../assets/school.png';
 
 const AboutMe = () => {
   return (
@@ -12,8 +13,7 @@ const AboutMe = () => {
         <div className="section-container">
           <div className="about-details-container">
             <div className="about-containers">
-
-            <div className="education-box" id="graduate-school">
+              <div className="education-box" id="graduate-school">
                 <div className="education-info">
                   <img src={graduate} className="about-pic" alt="graduate" />
                   <h2>Jadavpur University, Kolkata</h2>
@@ -44,26 +44,9 @@ const AboutMe = () => {
                   <p className="gpa">88%</p>
                 </div>
               </div>
-
             </div>
-            
           </div>
-          
         </div>
-
-        <div className="about-containers">
-              <div className="about-me">
-                <p>
-                  I am a 19 year old student pursuing Bachelors' of Engineering in Chemical Engineering from Jadavpur University. I am a passionate learner and a curious person. I love to explore new things and learn new skills. I am a self-taught web developer and a competitive coder. I am interested in Data Science and Machine Learning. I am also interested in the field of finance and economics.
-                </p>
-              </div>
-              <div className="about-me">
-
-                <p>
-                  I love to play chess and I am a chess enthusiast. I am also a big fan of football and I support Manchester United. I love to read books and my favourite book is The Alchemist by Paulo Coelho. I also love to watch movies and my favourite movie is The Shawshank Redemption.
-                </p>
-              </div>
-              </div>
       </section>
     </div>
   );
