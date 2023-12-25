@@ -8,8 +8,8 @@ const AboutMe = () => {
   return (
     <div className="about">
   <section id="about">
-    <p className="section__text__p1">Get To Know More</p>
-    <h1 className="title">EDUCATION</h1>
+    <p className="section__text__p1">Here are my </p>
+    <h1 className="title">Educational Qualifications</h1>
 
     <div className="about-containers">
       <div className="education-box" id="graduate-school">

@@ -21,10 +21,10 @@ const Profile = () => {
         <h1 className="title">Shreyas Pathak</h1>
         <p className="section__text__p2">an Aspiring Developer</p>
         <div className="btn-container">
-          <button className="btn btn-color-2" onClick={() => window.open('./assets/resume-example.pdf')}>
+          <button className="btn project-btn" onClick={() => window.open('./assets/resume-example.pdf')}>
             Resume
           </button>
-          <button className="btn btn-color-1" onClick={() => window.location.href = './contact'}>
+          <button className="btn project-btn" onClick={() => window.location.href = './contact'}>
             Contact
           </button>
         </div>

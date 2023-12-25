@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ const App = () => {
         <AboutMe />
         <Skills />
         <Projects />
+        <Footer />
       </div>
     </Router>
   );

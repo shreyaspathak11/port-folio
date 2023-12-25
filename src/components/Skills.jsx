@@ -18,7 +18,7 @@ const Skills = () => {
         <div className="skills-section">
         <section id="skills" className="skills">
           <p className="section__text__p1">Explore my</p>
-          <h1 className="title">TECH STACKS</h1>
+          <h1 className="title">Tech Stacks</h1>
           <div className="skills-container">
   
             <div className="skill-box" id="programming">
