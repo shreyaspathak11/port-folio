@@ -24,13 +24,13 @@ const Projects = () => {
                     <b>React.js, Chakra-UI, Node.js, Express.js, MongoDB</b>    
                     </p>
                     <div className="project-buttons">
-                        <button className="btn project-btn" onClick={() => window.location.href='https://github.com/'}>GitHub</button>
+                        <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/BitBazaar") }>GitHub</button>
                         <button className="btn project-btn" onClick={() => window.location.href='https://demo.example.com/'}>Demo</button>
                     </div>
                 </div>
         
                 {/* Project Box 2 */}   
-                <div className="project-box">
+                <div className="project-box" onClick={() => window.open("https://share-quotes-kail.vercel.app/")}>
                     <img src={Project2} alt="Project 2" className="project-image" />
                     <h2 className="project-name">Share Quotes</h2>
                     <p className="project-details">
@@ -43,13 +43,13 @@ const Projects = () => {
                 </p>
 
                     <div className="project-buttons">
-                        <button className="btn project-btn" onClick={() => window.location.href='https://github.com/'}>GitHub</button>
+                        <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/Share-Quotes")}>GitHub</button>
                         <button className="btn project-btn" onClick={() => window.location.href='https://demo.example.com/'}>Demo</button>
                     </div>
                 </div>
 
                 {/* Project Box 3 */}
-                <div className="project-box">
+                <div className="project-box" onClick={() => window.open("https://shreyaspathak11.github.io/Instue-FrontEnd/")}>
                     <img src={Project3} alt="Project " className="project-image" />
                     <h2 className="project-name">InsTrue</h2>
                     <p className="project-details">
@@ -63,12 +63,12 @@ const Projects = () => {
                     </p>
 
                     <div className="project-buttons">
-                        <button className="btn project-btn" onClick={() => window.location.href='https://github.com/'}>GitHub</button>
+                        <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/Instue-FrontEnd")}>GitHub</button>
                         <button className="btn project-btn" onClick={() => window.location.href='https://demo.example.com/'}>Demo</button>
                     </div>
                 </div>
         
-                {/* Project Box 4 */}   
+ 
 
             </div>
         </section>

@@ -34,25 +34,25 @@ const Profile = () => {
             src={linkedin}
             alt="My LinkedIn profile"
             className="icon"
-            onClick={() => window.location.href = 'https://linkedin.com/'}
+            onClick={() => window.open("https://www.linkedin.com/in/shreyas-pathak-11s/")}
           />
           <img
             src={github}
             alt="My Github profile"
             className="icon"
-            onClick={() => window.location.href = 'https://github.com/'}
+            onClick={() => window.open("https://github.com/shreyaspathak11")}
             />
           <img
             src={Youtube}
             alt="My Youtube profile"
             className="icon"
-            onClick={() => window.location.href = 'https://linkedin.com/'}
+            onClick={() => window.open("https://www.youtube.com/@shreyaspathak1267")}
           />
           <img
             src={Instagram}
             alt="My Instagram profile"
             className="icon"
-            onClick={() => window.location.href = 'https://linkedin.com/'}
+            onClick={() => window.open("https://www.instagram.com/capturing.my.journey11")}
           />
         </div> 
           

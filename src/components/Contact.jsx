@@ -1,23 +1,30 @@
-
 import React from 'react';
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" />
+    <section id="contact" className="contact-section">
+    <p className="section__text__p1">Let's get in touch</p>
+      <h1 className="title">Contact Me</h1>
 
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" />
+      <div className="contact-container">
+        <p className="contact-info">
+          Feel free to reach out via email:
+          <br />
+          <a href="mailto:shreyaspathak.ofc@gmail.com" className='section__text__p1'>
+            <span className="email-icon">@</span> click here
+          </a>
+        </p>
 
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
-    </div>
+        <div className="contact-buttons">
+          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1Qxp_gnfdPxjPg9gc686XrMXzPX9lPthE/view?usp=sharing')}>
+            Resume
+          </button>
+          <button className="btn project-btn" onClick={() => window.location.href = './contact'}>
+            Contact
+          </button>
+        </div>
+      </div>
+    </section>
   );
 };
 

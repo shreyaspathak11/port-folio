@@ -39,36 +39,23 @@ nav,
 }
 
 nav {
+  background-color: #F1F1F1; 
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 15vh;
+  
 }
 
-.nav-links {
-  gap: 2rem;
-  list-style: none;
-  font-size: 1.5rem;
-}
 
-a {
-  font-weight: 300;
-  font-size: 2rem;
-  color: black;
-  text-decoration: none;
-  text-decoration-color: white;
-}
 
-a:hover {
-  color: grey;
-  transform: scale(1.2);
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
-}
+
+
+
 
 .logo {
   font-size: 3rem;
   font-weight: 300;
-  font-family: 'Carattere', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 
 .logo:hover {
@@ -76,85 +63,7 @@ a:hover {
   
 }
 
-/* HAMBURGER MENU */
 
-#hamburger-nav {
-  display: none;
-}
-
-.hamburger-menu {
-  position: relative;
-  display: inline-block;
-}
-
-.hamburger-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 24px;
-  width: 30px;
-  cursor: pointer;
-}
-
-.hamburger-icon span {
-  width: 100%;
-  height: 4px;
-  background-color: black;
-  transition: all 0.3 ease-in-out;
-}
-
-.menu-links {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: #fefefe;
-  width: fit-content;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3 ease-in-out;
-}
-
-.menu-links a {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  font-size: 1.7rem;
-  color: black;
-  text-decoration: none;
-  transition: all 0.3 ease-in-out;
-}
-
-.menu-links li {
-  list-style: none;
-}
-
-.menu-links.open {
-  max-height: 300px;
-}
-
-.hamburger-icon.open span:first-child {
-  transform: rotate(45deg) translate(10px, 5px);
-}
-
-.hamburger-icon.open span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:first-child {
-  opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
 
 /* SECTIONS */
 
@@ -278,9 +187,6 @@ section {
 }
 
 
-
-
-/* ABOUT SECTION */
 
 /* ABOUT SECTION */
 
@@ -529,7 +435,7 @@ p{
 .project-btn {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: #373B44;
+  --color: #4c4e51;
   
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
@@ -541,7 +447,7 @@ p{
   outline: var(--b) solid #0000;
   outline-offset: .6em;
   font-size: 1.5rem;
-  font-weight: 600;
+  
   border: 0;
   font-family: "rajdhani", sans-serif;
   user-select: none;
@@ -561,93 +467,192 @@ p{
   color: #fff;
 }
 /* Responsive adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1002px) {
   .project-box {
     width: 100%; /* Set to 100% for a single column on smaller screens */
   }
 }
 @media screen and (max-width: 600px) {
   .project-box {
-    width: calc(50% - 1rem); /* Set to 50% for two boxes in a row with gap */
+    width: 100%; /* Set to 50% for two boxes in a row with gap */
   }
   .project-btn {
     width: auto;
   }
 }
 
+/* Coding Challenge Section */
+/* CODING PROFILES SECTION */
 
-#projects {
-  position: relative;
+#coding-profiles {
+  text-align: center;
+  margin-top: 8rem;
 }
 
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
-.project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+.coding-profiles-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.project-title {
-  margin: 1rem;
-  color: black;
+.coding-profile-box {
+  background-color: #fff;
+  border: 0.2rem solid #ddd;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: calc(30% - 1rem); /* Set to 33.33% for three boxes in a row with gap */
+  margin: 0.5rem; /* Adjust margin for gap between boxes */
 }
 
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+.coding-profile-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* CONTACT */
+.profile-icon {
+  width: 80%;
+  height: 80px;
+  margin: 10px;
+  padding: 15px;
+
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .coding-profiles-container {
+    flex-direction: column;
+  }
+
+  .coding-profile-box {
+    width: 100%; /* Set to 100% for a single column on smaller screens */
+  }
+}
+
+
+/* CONTACT SECTION */
 
 #contact {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 70vh;
+  position: relative;
+  text-align: center;
+  margin-top: 8rem;
+  height: fit-content;
 }
 
-.contact-info-upper-container {
-  display: flex;
-  justify-content: center;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
+.contact-section {
+  margin-bottom: 4rem; /* Added margin at the bottom */
 }
 
-.contact-info-container {
+.contact-container {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.contact-info-container p {
-  font-size: larger;
+.contact-info {
+  font-size: 1.5rem;
 }
+a{
+  text-decoration: none;
+  color: #555;
 
-.contact-icon {
-  cursor: default;
 }
-
 .email-icon {
-  height: 2.5rem;
+  font-size: 2rem;
+  color: #555;
 }
+
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    margin-top: 4rem; 
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .project-btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-container {
+    gap: 1rem; 
+  }
+  
+  .contact-buttons {
+    align-items: center;
+    gap: 0.5rem; 
+  }
+  
+  
+}
+@media screen and (max-width: 485px) {
+  .contact-info {
+    font-size: 0.8rem; 
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .contact-buttons {
+    gap: 0.25rem; 
+  }
+  .email{
+    width: 20%;
+  }
+  
+}
+
+
 
 /* FOOTER SECTION */
-
 footer {
-  height: 26vh;
+  
   margin: 0 1rem;
 }
-
-footer p {
+.footer-section {
   text-align: center;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #777; 
+}
+
+@media screen and (max-width: 600px) {
+  .footer-section {
+    width: 100%;
+    margin-top: 4rem; 
+    margin-bottom: 4rem; 
+}
 }
