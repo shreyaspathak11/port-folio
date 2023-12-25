@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
 
         <div className="contact-buttons">
-          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1Qxp_gnfdPxjPg9gc686XrMXzPX9lPthE/view?usp=sharing')}>
+          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1sJax0owNL0CUwn_Izf0FA56vWJMmhb0N/view?usp=sharing')}>
             Resume
           </button>
           <button className="btn project-btn" onClick={() => window.location.href = './contact'}>
