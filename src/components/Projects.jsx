@@ -10,7 +10,7 @@ const Projects = () => {
             
             <div className="projects-container">
                 {/* Project Box 1 */}
-                <div className="project-box">
+                <div className="project-box"  onClick={() => window.open("https://bitcoin-api-coral.vercel.app/")}>
                     <img src={Project1} alt="Project 1" className="project-image" />
                     <h2 className="project-name">Bitbazaar</h2>
                     
