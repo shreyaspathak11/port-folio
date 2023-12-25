@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
-import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
-import Navbar from './components/Navbar';
+import { BrowserRouter as Router} from 'react-router-dom';
+
 import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
