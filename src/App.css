@@ -82,7 +82,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   gap: 10rem;
@@ -186,7 +186,12 @@ section {
   opacity: 0.8;
 }
 
-
+@media screen and (max-width: 600px) {
+  #profile {
+    margin-top: 2rem;
+  }
+  
+}
 
 /* ABOUT SECTION */
 

@@ -7,7 +7,8 @@ import Instagram from '../assets/instagram.png';
 
 const Profile = () => {
   return (
-    <>
+    
+    <div className="back-ground">
     <section id="profile" className="profile">
       <div className="section__pic-container">
         <img 
@@ -60,7 +61,7 @@ const Profile = () => {
       </div>
     </section>
 
-    </>
+    </div>
   );
 };
 

@@ -15,6 +15,7 @@ import sql from "../assets/sql.png"
 
 const Skills = () => {
     return (
+        <div className="back-ground-2">
         <div className="skills-section">
         <section id="skills" className="skills">
           <p className="section__text__p1">Explore my</p>
@@ -104,6 +105,7 @@ const Skills = () => {
   
           </div>
         </section>
+      </div>
       </div>
     );
   };
