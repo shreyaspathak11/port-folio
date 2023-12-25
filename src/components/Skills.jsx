@@ -26,7 +26,10 @@ const Skills = () => {
               <div className="skill-info">
                 <div className="icon-info">
                   <img src={python} alt="Python Icon" className="floating-icon" />
-                  <p>Python</p>
+                  <p>Python<br />
+                  Data Structure &<br />
+                   Algorithm
+                  </p>
                 </div>
                 <div className="icon-info">
                   <img src={js} alt="JavaScript Icon" className="floating-icon" />
@@ -34,11 +37,15 @@ const Skills = () => {
                 </div>
                 <div className="icon-info">
                   <img src={linux} alt="Linux Icon" className="floating-icon" />
-                  <p>Linux</p>
+                  <p>Linux
+                  <br />
+                  Command Line</p>
                 </div>
                 <div className="icon-info">
                   <img src={sql} alt="SQL Icon" className="floating-icon" />
-                  <p>SQL</p>
+                  <p>SQL
+                  <br />
+                  Database</p>
                 </div>
               </div>
             </div>

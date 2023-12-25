@@ -19,7 +19,7 @@ const Profile = () => {
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm </p>
         <h1 className="title">Shreyas Pathak</h1>
-        <p className="section__text__p2">An Aspiring Developer</p>
+        <p className="section__text__p2">an Aspiring Developer</p>
         <div className="btn-container">
           <button className="btn btn-color-2" onClick={() => window.open('./assets/resume-example.pdf')}>
             Resume

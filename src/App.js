@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ const App = () => {
         <Profile />
         <AboutMe />
         <Skills />
+        <Projects />
       </div>
     </Router>
   );
