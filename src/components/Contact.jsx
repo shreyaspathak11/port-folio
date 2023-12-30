@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
 
         <div className="contact-buttons">
-          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1sJax0owNL0CUwn_Izf0FA56vWJMmhb0N/view?usp=sharing')}>
+          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1GWNMoDqqo9ABnd08sDJAYsfFXRrY4hwt/view?usp=drive_link')}>
             Resume
           </button>
           <button className="btn project-btn" onClick={() => window.open('https://contact-form-client.vercel.app/')}>
