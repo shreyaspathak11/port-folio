@@ -24,7 +24,7 @@ const Projects = () => {
                     <b>React.js, Chakra-UI, Node.js, Express.js, MongoDB</b>    
                     </p>
                     <div className="project-buttons">
-                        <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/BitBazaar") }>GitHub</button>
+                        <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/BitBazaar-Code") }>GitHub</button>
                         <button className="btn project-btn" onClick={() => window.open('https://bit-bazaar-shreyas.vercel.app/')}>Website</button>
                     </div>
                 </div>
