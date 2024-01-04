@@ -10,7 +10,7 @@ const Projects = () => {
             
             <div className="projects-container">
                 {/* Project Box 1 */}
-                <div className="project-box"  onClick={() => window.open("https://bitcoin-api-coral.vercel.app/")}>
+                <div className="project-box"  >
                     <img src={Project1} alt="Project 1" className="project-image" />
                     <h2 className="project-name">Bitbazaar</h2>
                     
@@ -25,12 +25,12 @@ const Projects = () => {
                     </p>
                     <div className="project-buttons">
                         <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/BitBazaar") }>GitHub</button>
-                        <button className="btn project-btn" onClick={() => window.location.href='https://demo.example.com/'}>Demo</button>
+                        <button className="btn project-btn" onClick={() => window.open('https://bit-bazaar-shreyas.vercel.app/')}>Website</button>
                     </div>
                 </div>
         
                 {/* Project Box 2 */}   
-                <div className="project-box" onClick={() => window.open("https://share-quotes-kail.vercel.app/")}>
+                <div className="project-box" >
                     <img src={Project2} alt="Project 2" className="project-image" />
                     <h2 className="project-name">Share Quotes</h2>
                     <p className="project-details">
@@ -44,12 +44,12 @@ const Projects = () => {
 
                     <div className="project-buttons">
                         <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/Share-Quotes")}>GitHub</button>
-                        <button className="btn project-btn" onClick={() => window.location.href='https://demo.example.com/'}>Demo</button>
+                        <button className="btn project-btn" onClick={() => window.open("https://share-quotes-kail.vercel.app/")}>Website</button>
                     </div>
                 </div>
 
                 {/* Project Box 3 */}
-                <div className="project-box" onClick={() => window.open("https://shreyaspathak11.github.io/Instue-FrontEnd/")}>
+                <div className="project-box" >
                     <img src={Project3} alt="Project " className="project-image" />
                     <h2 className="project-name">InsTrue</h2>
                     <p className="project-details">
@@ -64,7 +64,7 @@ const Projects = () => {
 
                     <div className="project-buttons">
                         <button className="btn project-btn" onClick={() => window.open("https://github.com/shreyaspathak11/Instue-FrontEnd")}>GitHub</button>
-                        <button className="btn project-btn" onClick={() => window.location.href='https://demo.example.com/'}>Demo</button>
+                        <button className="btn project-btn" onClick={() => window.open("https://shreyaspathak11.github.io/Instue-FrontEnd/")}>Website</button>
                     </div>
                 </div>
         
