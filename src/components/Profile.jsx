@@ -1,7 +1,7 @@
 import profilePic from '../assets/profile.jpg'; // Adjust the path accordingly
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
-import Youtube from '../assets/youtube.png';
+import Twitter from '../assets/twitter.png';
 import Instagram from '../assets/instagram.png';
 
 
@@ -22,7 +22,7 @@ const Profile = () => {
         <h1 className="title">Shreyas Pathak</h1>
         <p className="section__text__p2">an Aspiring Developer</p>
         <div className="btn-container">
-          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1GWNMoDqqo9ABnd08sDJAYsfFXRrY4hwt/view?usp=drive_link')}>
+          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1xYh-_mYpEn-RR00gKAR6VGYHHzusKWMS/view?usp=drive_link')}>
             Resume
           </button>
           <button className="btn project-btn" onClick={() => window.open('https://contact-form-client.vercel.app/')}>
@@ -44,10 +44,10 @@ const Profile = () => {
             onClick={() => window.open("https://github.com/shreyaspathak11")}
             />
           <img
-            src={Youtube}
-            alt="My Youtube profile"
+            src={Twitter}
+            alt="My Twitter profile"
             className="icon"
-            onClick={() => window.open("https://www.youtube.com/@shreyaspathak1267")}
+            onClick={() => window.open("https://x.com/Shreyas11_11")}
           />
           <img
             src={Instagram}
