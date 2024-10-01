@@ -47,13 +47,13 @@ Follow these steps to run the portfolio locally:
 
 ## Deployment
 
-[Vercel]([https://vercel.com/](https://shreyas-pathak-portfolio.vercel.app/)). Simply link your GitHub repository and follow the instructions to deploy.
+[Vercel](https://shreyas-pathak-portfolio.vercel.app/)
 
 ## Contact
 
 Feel free to reach out to me for collaboration or inquiries:
 
-- **Email**: [your-email@example.com](mailto:shreyaspathak.ofc@gmail.com)
+- **Email**: [shreyaspathak.ofc@gmail.com](mailto:shreyaspathak.ofc@gmail.com)
 
 ---
 
