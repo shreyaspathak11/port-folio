@@ -8,7 +8,7 @@ const CodingProfiles = () => {
     {
       name: 'LeetCode',
       icon: leetcode, 
-      link: 'https://leetcode.com/ShreyasPathak11/',
+      link: 'https://leetcode.com/u/ShreyasPathak11/',
     },
     {
       name: 'CodeForces',
