@@ -21,7 +21,7 @@ const Profile = () => {
         <h1 className="title">Shreyas Pathak</h1>
         <p className="section__text__p2">an Aspiring Developer</p>
         <div className="btn-container">
-          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1xYh-_mYpEn-RR00gKAR6VGYHHzusKWMS/view?usp=drive_link')}>
+          <button className="btn project-btn" onClick={() => window.open('https://drive.google.com/file/d/1CnegOj-Lnl-zN6fU5-NGcNAl6KUXAb2C/view?usp=drive_link')}>
             Resume
           </button>
           <button className="btn project-btn" onClick={() => window.open('https://contact-form-client.vercel.app/')}>
